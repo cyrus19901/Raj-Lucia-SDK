@@ -1,10 +1,24 @@
 {
-  "name": "luciasdk-t3",
-  "version": "1.1.2",
-  "description": "Lucia Protocol, Ad Attribution SDK",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "umd": "dist/umd",
+  "name": "raj-lucia-sdk",
+  "version": "1.0.0",
+  "description": "SDK for interacting with Raj Lucia API",
+  "main": "index.js",
+  "keywords": [
+    "SDK",
+    "Raj",
+    "Lucia",
+    "API"
+  ],
+  "author": "Cyrus19901",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyrus19901/Raj-Lucia-SDK.git"
+  },
+  "homepage": "https://github.com/cyrus19901/Raj-Lucia-SDK#readme",
+  "bugs": {
+    "url": "https://github.com/cyrus19901/Raj-Lucia-SDK/issues"
+  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,13 +26,12 @@
   "files": [
     "dist"
   ],
-  "author": "",
-  "license": "ISC",
   "type": "module",
   "dependencies": {
     "crypto": "^1.0.1",
     "crypto-js": "^4.2.0",
     "js-sha256": "^0.11.0",
+    "raj-lucia-sdk": "^1.0.0",
     "uuid": "^10.0.0"
   },
   "devDependencies": {
